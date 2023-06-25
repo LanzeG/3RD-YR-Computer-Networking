@@ -1,0 +1,112 @@
+LESTER LANCE J. BERMAS
+BSIT-NS-3A
+
+ACTIVITY 5
+
+=================================================================================================================
+
+			   Class A Public IP Address
+
+Chosen IP Address: 	      50.33.14.5/18
+Subnet Mask: 		      255.255.192.0
+
+IP Address (Bin):  	      00110010.00100001.00001110.00000101
+Subnet Mask (Bin): 	      11111111.11111111.11000000.00000000 
+AND Operation:        	      00110010.00100001.00000000.00000000
+Beginning Address (Dec):      50.33.0.0
+
+Subnet Mask (Bin): 	      11111111.11111111.11000000.00000000 
+Inverted Mask:                00000000.00000000.00111111.11111111
+Beginning Address (Bin):      00110010.00100001.00000000.00000000
+OR Opeartion:                 00110010.00100001.00111111.11111111
+Last Address (Dec):           50.33.63.255
+
+Borrowing Bit/s: 	      11111111.11111111.11000000.00000000
+No. of Subnets: 	      2^2 = 4 Subnets
+No. of Hosts for Each Subnet: 2^6 = 64 Hosts
+
+Range of Each SUbnet:					Usable Host Range:
+1st Subnet: 50.33.0.0 - 50.33.63.255   			50.33.0.1 - 50.33.63.254      
+2nd Subnet: 50.33.64.0 - 50.33.127.255			50.33.64.1 - 50.33.127.254
+3rd Subnet: 50.33.128.0 - 50.33.191.255			50.33.128.1 - 50.33.191.254	
+4th Subnet: 50.33.192.0 - 50.33.255.255			50.33.192.1 - 50.33.255.254	
+
+=================================================================================================================
+
+			      Class A Private IP Address
+
+Chosen IP Address: 		    10.78.23.67/17
+Subnet Mask: 			    255.255.128.0
+
+IP Address (Bin):  	 	    00001010.01001110.00010111.01000011
+Subnet Mask (Bin): 	 	    11111111.11111111.10000000.00000000
+AND Operation:     	 	    00001010.01001110.00000000.00000000
+Beginning Address (Dec): 	    10.78.0.0
+
+Subnet Mask (Bin): 	 	    11111111.11111111.10000000.00000000
+Inverted Mask:     	 	    00000000.00000000.01111111.11111111
+Beginning Address (Bin): 	    00001010.01001110.00000000.00000000
+OR Operation: 		 	    00001010.01001110.01111111.11111111
+Last Address (Dec):      	    10.78.127.255
+
+Borrowing Bit/s: 		    11111111.11111111.10000000.00000000
+No. of Subnets: 		    2^1 = 2 Subnets
+No. of Hosts for Each Subnet: 	    2^7 = 128 Hosts
+
+Range of Each Subnet:					Usable Host Range:
+1st Subnet: 10.78.0.0 - 10.78.127.255			10.78.0.1 - 10.78.127.254	
+2nd Subnet: 10.78.128.0 - 10.78.255.255			10.78.128.1 - 10.78.255.254	
+
+=================================================================================================================
+
+				Class B Public IP Address
+
+Chosen IP Address:		    153.89.30.56/26
+Subnet Mask:			    255.255.255.192
+
+IP Address (Bin):		    10011001.01011001.00011110.00111000
+Subnet Mask (Bin):		    11111111.11111111.11111111.11000000
+AND Operation:			    10011001.01011001.00011110.00000000
+Beginning Address (Dec):            153.89.30.0
+
+Subnet Mask (Bin):		    11111111.11111111.11111111.11000000
+Inverted Mask:                      00000000.00000000.00000000.00111111
+Beginning Address (Bin):            10011001.01011001.00011110.00000000
+OR Operation:			    10011001.01011001.00011110.00111111
+Last Address (Dec):		    153.89.30.63
+
+Borrowing Bit/s:		    11111111.11111111.11111111.11000000
+No. of Subnets:			    2^2 = 4 Subnets
+No. of Hosts for Each Subnet:	    2^6 = 64 Hosts
+
+Range of Each Subnet:					Usable Host Range:
+1st Subnet: 153.89.30.0 - 153.89.30.63			153.89.30.1 - 153.89.30.62	
+2nd Subnet: 153.89.30.64 - 153.89.30.127		153.89.30.65 - 153.89.30.126	
+3rd Subnet: 153.89.30.128 - 153.89.30.191		153.89.30.129 - 153.89.30.190	
+4th Subnet: 153.89.30.192 - 153.89.30.255		153.89.30.193 - 153.89.30.254	
+
+=================================================================================================================
+
+				Class B Private IP Address
+
+Chosen IP Address:		    172.20.47.39/25
+Subnet Mask:			    255.255.255.128
+
+IP Address (Bin):		    10101100.00010100.00101111.00100111
+Subnet Mask (Bin):		    11111111.11111111.11111111.10000000
+AND Operation:			    10101100.00010100.00101111.00000000
+Beginning Address (Dec):	    172.20.47.0
+
+Subnet Mask (Bin):		    11111111.11111111.11111111.10000000
+Inverted Mask:                      00000000.00000000.00000000.01111111
+Beginning Address (Bin):	    10101100.00010100.00101111.00000000
+OR Operation:		            10101100.00010100.00101111.01111111
+Last Address (Dec):		    172.20.47.127
+
+Borrowing Bit/s:		    11111111.11111111.11111111.10000000
+No. of Subnets:			    2^1 = 2 Subnets
+No. of Hosts for Each Subnet:	    2^7 = 128 Hosts
+
+Range of Each Subnet:					Usable Host Range:
+1st Subnet: 172.20.47.0 - 172.20.47.127			172.20.47.1 - 172.20.47.126	
+2nd Subnet: 172.20.47.128 - 172.20.47.255		172.20.47.129 - 172.20.47.254	
